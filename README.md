@@ -1,1 +1,1 @@
-# JMIERP-WebSite
+# jerp-landing
