@@ -132,7 +132,7 @@ p {
     font-size: var(--font28);
     color: var(--bluish-white);
     background-color: var(--red);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 #sidebar .product {
@@ -430,7 +430,7 @@ p {
     font-size: var(--font28);
     color: var(--bluish-white);
     background-color: var(--blue);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .nav-section #toggle .verify-btn {
@@ -477,7 +477,7 @@ p {
     color: var(--bluish-white);
     border-radius: 100px;
     background-color: var(--blue);
-    transition: 0.6s;
+    transition: 0.5s;
 }
 
 .nav-section .google-playstore a {
