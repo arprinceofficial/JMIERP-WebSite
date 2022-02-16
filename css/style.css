@@ -212,14 +212,17 @@ p {
 #sidebar .product .product-content {
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 15px 0;
     flex-direction: column;
+    /* overflow-y: scroll; */
 }
 
 #sidebar .product .list-product .head {
     font-size: var(--font16);
     font-weight: 500;
     color: var(--theme-color);
+    margin: 10px 0;
 }
 
 #sidebar .product .list-product .batch span {
