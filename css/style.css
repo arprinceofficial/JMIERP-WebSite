@@ -240,6 +240,7 @@ p {
 
 #sidebar .text-title {
     font-size: var(--font10);
+    margin: 15px 0;
 }
 
 @media only screen and (max-width: 767px) {
