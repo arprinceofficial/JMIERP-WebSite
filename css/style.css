@@ -582,7 +582,7 @@ p {
     /* background-color: #0058aa; */
 }
 
-#hero .google-play-btn span {
+#hero .google-play-btn a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -590,31 +590,22 @@ p {
     border-radius: 20px;
     width: 150px;
     height: 50px;
-    background-color: #fcfcfc;
+    background-color: white;
+    color: var(--blue);
+    font-size: var(--font16);
+    text-decoration: none;
+    font-weight: 500;
 }
 
-
-/* #hero .google-play-btn span::before {
-    content: "";
-    position: absolute;
-    background: #0058aa;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transform: translateX(-100%);
-    transition: all 0.5s ease;
-    border-radius: 2px;
+#hero .google-play-btn a:hover {
+    background-color: var(--blue);
+    color: white;
+    transition: 0.4s;
 }
-
-#hero .google-play-btn span:before {
-    transform: translateX(0);
-} */
 
 #hero .google-play-btn a>img {
-    height: 70px;
-    padding: 20px;
+    height: 35px;
+    margin-right: 5px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -659,7 +650,7 @@ p {
     #hero p {
         font-size: var(--font16);
     }
-    #hero .google-play-btn span {
+    #hero .google-play-btn a {
         margin-top: 0px;
         border-radius: 12px;
         width: 123px;
