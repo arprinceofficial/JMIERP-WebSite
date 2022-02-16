@@ -587,7 +587,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 15px;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 150px;
     height: 50px;
     background-color: white;
@@ -649,16 +649,6 @@ p {
     }
     #hero p {
         font-size: var(--font16);
-    }
-    #hero .google-play-btn a {
-        margin-top: 0px;
-        border-radius: 12px;
-        width: 123px;
-        height: 43px;
-    }
-    #hero .google-play-btn a>img {
-        height: 65px;
-        padding: 20px;
     }
 }
 
