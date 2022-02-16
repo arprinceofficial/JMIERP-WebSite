@@ -639,7 +639,7 @@ p {
 
 @media only screen and (max-width: 767px) {
     #hero {
-        height: 70vh;
+        height: 100vh;
     }
     #hero h2 {
         font-size: var(--font36);
