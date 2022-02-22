@@ -416,7 +416,7 @@ p {
 //--//-->   NAVBAR-section-end
 ======================================*/
 
-.nav-section #toggle {
+.nav-section .button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,14 +430,14 @@ p {
     cursor: pointer;
 }
 
-.nav-section #toggle:hover {
+.nav-section .button:hover {
     font-size: var(--font28);
     color: var(--bluish-white);
     background-color: var(--blue);
     transition: 0.5s;
 }
 
-.nav-section #toggle .verify-btn {
+.nav-section .button .verify-btn {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -446,11 +446,11 @@ p {
     padding: 8px 8px;
 }
 
-.nav-section #toggle .verify-btn i {
+.nav-section .button .verify-btn i {
     font-size: var(--font32);
 }
 
-.nav-section #toggle .verify-btn span {
+.nav-section .button .verify-btn span {
     margin-right: 10px;
     font-size: var(--font14);
     /* color: var(--theme-color); */
